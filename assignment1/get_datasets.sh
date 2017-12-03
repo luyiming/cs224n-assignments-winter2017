@@ -20,5 +20,8 @@ if hash wget 2>/dev/null; then
 else
   curl -O http://web.stanford.edu/~jamesh93/tmp/glove.6B.50d.txt.zip
 fi
+
+cp ../glove.6B.50d.txt.zip ./
+
 unzip glove.6B.50d.txt.zip
 rm glove.6B.50d.txt.zip
